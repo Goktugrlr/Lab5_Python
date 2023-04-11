@@ -62,7 +62,7 @@ print("Final version of the password:", password)
 
 #Task 3
 def search_letter(source, keyLetter):
-    source.lower() #Maybe my name's first letter was replaced with uppercase
+    source.lower() #maybe letter that is changed to uppercase is my name's first letter
 
     for letters in source:
         if letters == keyLetter:
